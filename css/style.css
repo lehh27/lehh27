@@ -10,10 +10,10 @@
 }
 
 :root {
-    --bg-color: #090956;
-    --second-bg-color: #132a4d;
-    --text-color: #ffffff;
-    --main-color: rgb(13, 163, 111);
+    --bg-color: #1AACAC;
+    --second-bg-color: #2E97A7;
+    --text-color: #1b1b1b;
+    --main-color: #1ff397;
 }
 
 html {
@@ -80,10 +80,14 @@ section {
 }
 
 .home-img {
-    width: 35vw;
+    width: 50%;
     animation: floatImage 4s ease-in-out infinite;
-    
+    height: 50%;   
 }
+
+
+
+
 
 @keyframes floatImage {
     0% {
@@ -234,7 +238,7 @@ span {
     margin: 1rem 0 3rem;
 }
 
-.portfolio {
+.portofolio {
     background: var(--second-bg-color);
 }
 
